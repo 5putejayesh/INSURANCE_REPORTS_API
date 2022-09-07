@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    password: jayesh
+    url: jdbc:mysql://localhost:3306/reportsdb?useSSL=false&serverTimezone=UTC
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: true
+        ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
