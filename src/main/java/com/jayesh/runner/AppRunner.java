@@ -16,7 +16,7 @@ public class AppRunner implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 
-		EligibilityDtls e1=new EligibilityDtls();
+		/*EligibilityDtls e1=new EligibilityDtls();
 		e1.setEligId(2);
 		e1.setName("John");
 		e1.setEmail("John@abc.com");
@@ -25,7 +25,7 @@ public class AppRunner implements ApplicationRunner {
 		e1.setPlanName("SNAP");
 		e1.setSsn(852369741);
 		
-		repo.save(e1);
+		repo.save(e1);*/
 	}
 
 }
