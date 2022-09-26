@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: jayesh
-    url: jdbc:mysql://localhost:3306/reportsdb?useSSL=false&serverTimezone=UTC
-    username: root
+    password: DB password
+    url: DB connection url
+    username: DB password
   jpa:
     hibernate:
       ddl-auto: create
