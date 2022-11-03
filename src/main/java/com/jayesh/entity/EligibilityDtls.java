@@ -5,11 +5,13 @@ import java.time.LocalDate;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "ED_ELIG_DTLS")
 public class EligibilityDtls {
 	
 	@Id
